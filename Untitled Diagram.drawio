@@ -1,4 +1,4 @@
-<mxfile modified="2022-03-02T18:07:19.481Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="jNhGmsP5URB3I2FBwRM1" version="16.6.4" type="github">
+<mxfile modified="2022-03-02T18:22:39.160Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="l2AVObvDX2UALkfEZfBf" version="16.6.4" type="github">
   <diagram id="f106602c-feb2-e66a-4537-3a34d633f6aa" name="Page-1">
     <mxGraphModel dx="1125" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -74,9 +74,9 @@
           <mxGeometry x="10" y="15.120000000000001" width="32.24" height="32.24" as="geometry" />
         </mxCell>
         <mxCell id="O8UG0uur4NidOeMpr3gH-1057" value="" style="shape=mxgraph.gcp2.doubleRect;strokeColor=#dddddd;shadow=1;strokeWidth=1;fontColor=#999999;" vertex="1" parent="14">
-          <mxGeometry x="332.78000000000003" y="100" width="237.28" height="70" as="geometry" />
+          <mxGeometry x="332.78" y="100" width="267.22" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="O8UG0uur4NidOeMpr3gH-1058" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;Apache Airflow/PySpark/dbt&lt;/span&gt;&lt;br&gt;Kubernetes Engine" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=container_engine;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="O8UG0uur4NidOeMpr3gH-1057">
+        <mxCell id="O8UG0uur4NidOeMpr3gH-1058" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;Apache Airflow/PySpark/dbt Cloud&lt;/span&gt;&lt;br&gt;Kubernetes Engine" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=container_engine;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="O8UG0uur4NidOeMpr3gH-1057">
           <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
             <mxPoint x="5" y="-19.5" as="offset" />
           </mxGeometry>
