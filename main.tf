@@ -19,7 +19,7 @@ provider "google" {
 }
 
 module "vpc" {
-  source = "./vpc"
-  project_id = "${var.project_id}"
-  region = "${var.region}"
+  source     = "./vpc"
+  project_id = var.project_id
+  region     = var.region
 }
