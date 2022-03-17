@@ -19,3 +19,12 @@ resource "google_compute_subnetwork" "subnet" {
   network       = google_compute_network.vpc.name
   ip_cidr_range = "10.10.0.0/24"
 }
+
+resource "google_compute_global_address" "data_fusion_private_ip_alloc" {
+  project = var.project_id
+  name = "data-fusion-private-ip-alloc"
+  purpose = "VPC_PEERING"
+  address_type = "INTERNAL"
+  prefix_length = 22
+  network = module.vpc.network_self_link
+}

@@ -10,7 +10,7 @@ variable "region" {
 
 
 variable "type" {
-  description = "Represents the type of the instance (BASIC or ENTERPRISE)"
+  description = "Represents the type of the instance (BASIC or ENTERPRISE or DEVELOPER)"
   type = string
   default = "ENTERPRISE"
 }
